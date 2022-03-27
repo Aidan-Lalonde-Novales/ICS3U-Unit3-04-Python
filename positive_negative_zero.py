@@ -16,16 +16,14 @@ def main():
     if user_number > 0:
         # output
         print("{} is a positive number.".format(user_number))
-        print("\nDone.")
     elif user_number < 0:
         print("{} is a negative number.".format(user_number))
-        print("\nDone.")
     elif user_number == 0:
         print("Your number is just zero.")
-        print("\nDone.")
     else:
         print("Something went wrong.")
-        print("\nDone.")
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":
